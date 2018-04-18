@@ -10,6 +10,7 @@ import { logoutRequest } from 'store/actions/LoginActions';
 import { GA_API, APP_VERSION } from 'configs/constants';
 
 import registerServiceWorker from 'registerServiceWorker';
+import './i18n';
 import 'index.css';
 
 // initialise the authorization settings for the calls if user is already logged in

@@ -30,7 +30,7 @@ class UserDetails extends React.Component {
         <span>
           <Dropdown overlay={menu}>
             <div className="ant-dropdown-link" style={{ paddingLeft: 10 }}>
-              {user.name} <Icon type="down" />
+              {user ? user.name : ""} <Icon type="down" />
             </div>
           </Dropdown>
         </span>

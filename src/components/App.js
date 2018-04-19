@@ -93,7 +93,7 @@ class App extends React.Component {
                 </Switch>
               </Content>
               <Footer className="app-footer">
-                All Rights Reserved © {new Date().getFullYear()} Murtaza Zaidi.
+                All Rights Reserved © {new Date().getFullYear()} VentureDive.
             <span>{APP_VERSION}</span>
               </Footer>
             </Layout>

@@ -73,7 +73,7 @@ class NormalLoginForm extends React.Component {
               <div className="login-footer">
                 <button onClick={() => i18n.changeLanguage('en')}>en</button>
                 <button onClick={() => i18n.changeLanguage('ar')}>ar</button>
-                All Rights Reserved © {new Date().getFullYear()} Murtaza Zaidi.
+                All Rights Reserved © {new Date().getFullYear()} VentureDive
             <span>{APP_VERSION}</span>
               </div>
             </Layout>)
